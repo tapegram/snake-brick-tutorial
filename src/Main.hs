@@ -1,5 +1,5 @@
-module Main (main) where
+module Main (
+  main,
+) where
 
-main :: IO ()
-main = do
-  putStrLn "hello world"
+import UI (main)
